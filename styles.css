@@ -126,6 +126,90 @@ a {
     border: 0;
 }
 
+.narrow {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.text h2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1.5em 0 0.5em;
+}
+
+.text h2:first-child {
+    margin-top: 0;
+}
+
+.text p {
+    margin-bottom: 1em;
+}
+
+.text a.button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+blockquote {
+    margin: 1.5em 0;
+    padding-left: 1rem;
+    border-left: 2px solid var(--divider);
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.bandcamp {
+    width: 350px;
+    max-width: 100%;
+    height: 470px;
+    border: 0;
+}
+
+.square-photo {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.gallery a:hover img {
+    opacity: 0.8;
+}
+
+.weddings-hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 4rem;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -60vh 60vh -20vh rgba(0, 0, 0, 0.75);
+}
+
 .site-footer {
     background: var(--section-alt-bg);
     padding: 2.5rem 1.5rem 1.5rem;
