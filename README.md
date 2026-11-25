@@ -1,34 +1,5 @@
 # Gabriel Wheaton Website
 
-A clean, modern portfolio website for violinist and composer Gabriel Wheaton.
+A plain HTML/CSS rebuild of [gabrielwheaton.com](https://gabrielwheaton.com), matching its content, colors and fonts.
 
-## About
-
-This is a plain HTML/CSS website featuring:
-- Responsive design
-- Information about Gabriel's musical background and specializations
-- Notable collaborations
-- Contact and mailing list signup sections
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- Fully responsive design
-- No dependencies
-
-## Getting Started
-
-Simply open `index.html` in a web browser, or serve the files using any web server.
-
-## Features
-
-- Sticky navigation bar
-- Smooth scrolling navigation
-- Responsive grid layouts
-- Modern, clean design
-- Mobile-friendly
-
-## License
-
-© 2026 Gabriel Wheaton. All rights reserved.
+Open `index.html` in a browser, or serve the folder with any static web server (for example GitHub Pages).

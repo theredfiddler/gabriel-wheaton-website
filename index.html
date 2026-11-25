@@ -3,92 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Wheaton - Violinist</title>
+    <title>Gabriel Wheaton</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@1,500&family=Archivo:wght@400;700&family=Kreon&family=Urbanist:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-brand">Gabriel Wheaton</a>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
+    <header class="site-header">
+        <h1 class="page-title"><a href="index.html">Gabriel Wheaton</a></h1>
+        <nav class="main-nav">
+            <ul>
+                <li class="selected"><a href="index.html">Home</a></li>
                 <li><a href="#music">Music</a></li>
                 <li><a href="#photos">Photos</a></li>
                 <li><a href="#booking">Booking</a></li>
                 <li><a href="#performances">Performances</a></li>
                 <li><a href="#weddings">Weddings</a></li>
             </ul>
-        </div>
-    </nav>
-
-    <header class="hero" id="home">
-        <div class="hero-content">
-            <h1>Gabriel Wheaton</h1>
-            <p class="subtitle">Violinist & Composer</p>
-        </div>
+        </nav>
+        <div class="header-media"></div>
     </header>
 
-    <main class="container">
-        <section class="bio" id="about">
-            <div class="bio-content">
-                <h2>About</h2>
-                <p>Gabriel Wheaton is a versatile violinist and composer based in California, specializing in a unique blend of classical, folk, and contemporary music. With extensive experience across genres including classical, pop, bluegrass, Latin, hip-hop, electronic, and jazz, Gabriel brings innovative arrangements and virtuosic performance to every project.</p>
+    <main>
+        <section class="section bio-section">
+            <div class="section-bg" style="background-image: url('images/gabriel.jpg');"></div>
+            <div class="columns">
+                <div class="column">
+                    <p>Using his violin and effects pedals, Gabriel creates a rich orchestral sound palette ranging from fiery and engaging to mellow and relaxing. His expressive voice brings an improvisational mastery to folk, classical, pop, bluegrass, Latin, hip-hop, electronic, jazz and everything in between.</p>
+                    <p>Gabriel was classically trained, graduating from UCLA Summa Cum Laude with a BA in Music Composition. He works in Northern and Southern California as a freelance composer, producer and violinist.</p>
+                    <p>Gabriel has performed with notable artists including T-Pain, Mako, Elle King and Pomplamoose.</p>
+                </div>
+                <div class="column"></div>
+            </div>
+        </section>
 
-                <p>Classically trained at UCLA where he received a BA in Music Composition (Summa Cum Laude), Gabriel combines traditional violin mastery with modern production techniques, often incorporating effects pedals to create dynamic, layered soundscapes that push the boundaries of what the violin can achieve.</p>
-
-                <p>Based in both Northern and Southern California, Gabriel is available for performances, collaborations, studio sessions, and special events.</p>
-
-                <div class="genres">
-                    <h3>Specializations</h3>
-                    <ul>
-                        <li>Classical</li>
-                        <li>Folk</li>
-                        <li>Pop</li>
-                        <li>Bluegrass</li>
-                        <li>Latin</li>
-                        <li>Hip-Hop</li>
-                        <li>Electronic</li>
-                        <li>Jazz</li>
-                    </ul>
+        <section class="section" id="music">
+            <div class="columns">
+                <div class="column">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/yfX7mCHbroc?rel=0" title="Gabriel Wheaton video 1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/IOgr_Uzr0VY?rel=0" title="Gabriel Wheaton video 2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <section class="collaborations" id="music">
-            <h2>Notable Collaborations</h2>
-            <div class="collab-grid">
-                <div class="collab-item">T-Pain</div>
-                <div class="collab-item">Mako</div>
-                <div class="collab-item">Elle King</div>
-                <div class="collab-item">Pomplamoose</div>
-            </div>
-        </section>
-
-        <section class="cta" id="booking">
-            <h2>Get in Touch</h2>
-            <p>Interested in booking Gabriel for a performance, collaboration, or special event?</p>
-            <a href="mailto:gabrielwheaton@gmail.com" class="btn">Contact</a>
-        </section>
-
-        <section class="mailing-list" id="mailing">
-            <h2>Join the Mailing List</h2>
-            <p>Stay updated on performances, new music, and special announcements.</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Your email address" required>
-                <button type="submit" class="btn">Subscribe</button>
-            </form>
-        </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <ul class="footer-links">
+    <footer class="site-footer">
+        <form class="mailing-list" action="#" onsubmit="return false;">
+            <h3>Mailing List</h3>
+            <div class="control">
+                <input type="email" placeholder="Your email" required>
+                <button type="submit" class="button">Sign up</button>
+            </div>
+        </form>
+        <nav class="footer-nav">
+            <ul>
                 <li><a href="mailto:gabrielwheaton@gmail.com">Contact</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#music">Music</a></li>
             </ul>
-            <p class="copyright">&copy; 2026 Gabriel Wheaton. All rights reserved.</p>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>
