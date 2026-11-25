@@ -207,6 +207,76 @@ blockquote {
     box-shadow: inset 0 -60vh 60vh -20vh rgba(0, 0, 0, 0.75);
 }
 
+.booking-services {
+    background: var(--section-alt-bg);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-card {
+    padding: 1.5rem 0;
+}
+
+.service-card h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.service-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 235, 224, 0.85);
+}
+
+.booking-testimonials {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.testimonials {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonials blockquote {
+    border: none;
+    padding: 0;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.testimonials blockquote p {
+    margin-bottom: 0.5rem;
+}
+
+.testimonials blockquote strong {
+    font-style: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.booking-cta {
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.booking-cta .button {
+    margin-top: 1rem;
+}
+
 .site-footer {
     background: var(--section-alt-bg);
     padding: 2.5rem 1.5rem 1.5rem;
