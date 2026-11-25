@@ -75,11 +75,6 @@ a {
     color: var(--nav-hover);
 }
 
-.header-media {
-    height: 27vh;
-    background: var(--page-bg);
-}
-
 .section {
     position: relative;
     overflow: hidden;
@@ -277,10 +272,6 @@ blockquote {
 
     .main-nav a {
         padding: 0.4rem 0.9rem;
-    }
-
-    .header-media {
-        height: 12vh;
     }
 
     .columns {
